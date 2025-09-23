@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>武器潜在シミュレーター (MVP)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>武器潜在シミュレーター (MVP)</h1>
+  <div id="app">
+    <!-- 入力欄 -->
+    <div id="inputs">
+      <p>潜在6枠を入力してください（仮UI）</p>
+      <input type="text" placeholder="上潜在1">
+      <input type="text" placeholder="上潜在2">
+      <input type="text" placeholder="上潜在3"><br>
+      <input type="text" placeholder="下潜在1">
+      <input type="text" placeholder="下潜在2">
+      <input type="text" placeholder="下潜在3"><br>
+      <button id="calcBtn">計算</button>
+    </div>
+
+    <!-- 結果表示 -->
+    <div id="results">
+      <h2>結果</h2>
+      <table border="1">
+        <thead>
+          <tr><th>キューブ種</th><th>期待値</th><th>平均必要個数</th></tr>
+        </thead>
+        <tbody id="resultTable">
+          <tr><td>ネオ</td><td>-</td><td>-</td></tr>
+          <tr><td>メガ</td><td>-</td><td>-</td></tr>
+          <tr><td>ブラック</td><td>-</td><td>-</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
