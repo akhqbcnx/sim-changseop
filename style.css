@@ -1,13 +1,19 @@
-body {
-  font-family: sans-serif;
-  margin: 20px;
+.potential-block {
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-#inputs {
-  margin-bottom: 20px;
+.potential-block h3 {
+  margin-top: 0;
+  color: #333;
 }
-table {
-  border-collapse: collapse;
+label {
+  display: block;
+  margin: 6px 0;
 }
-th, td {
-  padding: 5px 10px;
+select {
+  margin-left: 5px;
+  padding: 3px;
 }
