@@ -1,4 +1,6 @@
-const megaDistribution = {
+// data/megaDistribution.js
+export const megaDistribution = {
+
   first: [
     { option: "STR+12%", prob: 0.097561 },
     { option: "DEX+12%", prob: 0.097561 },
