@@ -1,6 +1,5 @@
 // data/neoDistribution.js
 export const neoDistribution = {
-{
   first: [
     { option: "STR+12%", prob: 0.097561 },
     { option: "DEX+12%", prob: 0.097561 },
